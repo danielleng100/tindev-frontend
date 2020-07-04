@@ -1,0 +1,205 @@
+main
+.main-container 
+.contact-list
+.contacts {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 0 10px 0 #e6dedd;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts::-webkit-scrollbar {
+  /* width: 4px; */
+  display: none;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts::-webkit-scrollbar-track {
+  display: none;
+}
+
+main
+.main-container 
+.contact-list
+.contacts::-webkit-scrollbar-thumb {
+  background-color: #f0ebe9;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts
+input {
+  width: 85%;
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px auto;
+  background-color: #f7f0f0;
+  color: #707070;
+  outline: none;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  transition: 100ms;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search
+.contact-and-avatar {
+  display: flex;
+  align-items: center; 
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search
+.contact-and-avatar
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 40px;
+  background-color: #DF4723;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search
+.contact-and-avatar
+.name-and-username {
+  display: flex;
+  flex-direction: column;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search
+.contact-and-avatar
+.name-and-username 
+span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 500;
+  color: #DF4723;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search
+.contact-and-avatar
+.name-and-username 
+span:nth-child(2) {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #a7a7a7;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact-search 
+button {
+  margin-right: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0e8e7;
+  font-weight: 500;
+  color: #DF4723
+}
+
+main
+.main-container 
+.contact-list
+.contacts 
+.contact {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  cursor: pointer;
+  transition: 100ms;
+}
+ 
+main
+.main-container 
+.contact-list
+.contacts 
+.contact:hover {
+  background-color: #e9e1dd;
+}
+
+main
+.main-container 
+.contact-list
+.contacts 
+.contact 
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 40px;
+  background-color: #DF4723;
+}
+
+main
+.main-container 
+.contact-list
+.contacts 
+.contact 
+.name-and-msg {
+  display: flex;
+  flex-direction: column;
+}
+
+main
+.main-container 
+.contact-list
+.contacts 
+.contact 
+.name-and-msg
+span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 500;
+  color: #DF4723;
+}
+
+main
+.main-container 
+.contact-list
+.contacts 
+.contact 
+.name-and-msg
+span:nth-child(2) {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #777777;
+}
